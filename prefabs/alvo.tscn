@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bijqy26haoryk"]
+
+[ext_resource type="Script" uid="uid://c31y2l1yd4y7o" path="res://scripts/alvo.gd" id="1_mlbml"]
+
+[node name="Alvo" type="Area2D" unique_id=1184899943]
+script = ExtResource("1_mlbml")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=674708646]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2035826956]
+
+[node name="Label" type="Label" parent="." unique_id=1922151070]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Parabéns!"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
