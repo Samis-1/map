@@ -574,9 +574,6 @@ tile_set = SubResource("TileSet_p5aym")
 [node name="decoração" type="TileMapLayer" parent="mundo" unique_id=250712660]
 tile_set = SubResource("TileSet_uh0y0")
 
-[node name="Player" parent="." unique_id=1305898902 instance=ExtResource("2_2ii17")]
-position = Vector2(-256.53003, 148.51889)
-
 [node name="Alvo" parent="." unique_id=1184899943 instance=ExtResource("3_2d767")]
 
 [node name="Tutorial" type="Label" parent="." unique_id=716977544]
@@ -585,3 +582,5 @@ offset_top = 32.0
 offset_right = 179.0
 offset_bottom = 55.0
 text = "Encontre a bandeira"
+
+[node name="Player" parent="." unique_id=1305898902 instance=ExtResource("2_2ii17")]
